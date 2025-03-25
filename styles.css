@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Novecento+Slab:wght@900&display=swap');
+
+body {
+    font-family: 'Novecento Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#filler-text {
+    margin-bottom: 40px;
+}
+
+#comments-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#comment-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Novecento Slab', sans-serif;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Novecento Slab', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comments-display {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
